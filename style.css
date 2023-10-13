@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+:root{
+    --navy-color: #000080;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+.main-body{
+    width: 500px;
+    height: 500px;
+    background-color: var(--navy-color);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    display: grid;
+    place-content: center
+    ;
+}
+
+
+.inner-cyrcel{
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    
+
+}
+
+.sec-body{
+    width: 460px;
+    height: 460px;
+    background-color: var(--navy-color);
+    border-radius: 50%;
+}
+
+
+
+
+.t{
+    width: 88%;
+    
+    display: flex;
+    justify-content: space-between;
+    font-size:2.5rem ;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+
+.t12-6{
+    transform:translate(-50%,-50%) rotate(90deg);
+}
+
+.t12,.t6{
+    transform: rotate(-90deg);
+}
+
+
+
+.t1-7{
+    transform: translate(-50%,-50%) rotate(120deg);
+}
+
+.t1,.t7{
+    transform: rotate(-120deg);
+}
+
+
+
+.t2-8{
+    transform: translate(-50%,-50%) rotate(150deg);
+}
+
+.t2,.t8{
+    transform: rotate(-150deg);
+}
+
+
+.t3-9{
+    transform: translate(-50%,-50%) rotate(180deg);
+}
+
+.t3,.t9{
+    transform: rotate(-180deg);
+}
+
+
+
+.t4-10{
+    transform: translate(-50%,-50%) rotate(210deg);
+}
+
+.t4,.t10{
+    transform: rotate(-210deg);
+}
+
+
+.t5-11{
+    transform: translate(-50%,-50%) rotate(240deg);
+}
+
+.t5,.t11{
+    transform: rotate(-240deg);
+}
+
+
+.center{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    z-index: 2;
+
+}
+
+
+.sec{
+    width: 3px;
+    height: 33%;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+    transform: translate(-50%) ;
+    border-radius: 10px;
+    z-index: 1;
+    
+
+}
+
+
+.min{
+    width: 4px;
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
+
+.hrs{
+    width: 5px;
+    height: 22%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+    transform: translate(-50%);
+    border-radius: 10px;
+}
